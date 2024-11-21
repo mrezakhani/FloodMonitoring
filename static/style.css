@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#station-info {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#analysis {
+    font-size: 14px;
+}
+
+/* Style for the minimum value */
+.min {
+    color: red;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Style for the maximum value */
+.max {
+    color: blue;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Style for the average value */
+.avg {
+    color: green;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Styling for additional analysis */
+.moreAnalysis {
+    color: #883967;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Styling for the table */
+#data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#data-table th, #data-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+#data-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+#data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#data-table tr:hover {
+    background-color: #ddd;
+}
+
+#data-table td {
+    color: #333;
+}
+
+/* Additional styles for the page */
+table {
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 600px) {
+    #data-table {
+        font-size: 12px;
+    }
+
+    #data-table th, #data-table td {
+        padding: 10px;
+    }
+}
