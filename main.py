@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from flask import Flask, render_template, request, jsonify
-import requests
 import statistics
+import requests
 
 app = Flask(__name__)
 
